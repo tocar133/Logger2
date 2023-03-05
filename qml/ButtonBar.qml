@@ -36,7 +36,6 @@ Rectangle {
                     color: "lightgrey"
                     height: 25
                     width: 60
-                    anchors.verticalCenter: sensorCheckBox.verticalCenter
                     TextInput {
                         text: ""
                         font.pointSize: 12
