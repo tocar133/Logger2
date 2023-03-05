@@ -33,7 +33,8 @@ ApplicationWindow {
                     anchors.fill: parent
                     spacing: 10
                     delegate: SensorSelection { }
-                    model: ListModel {
+                    model: sensorliste.sensorenListe
+                    /*model: ListModel {
                         ListElement {
                             name: "Sensor 1"
                         }
@@ -46,7 +47,7 @@ ApplicationWindow {
                         ListElement {
                             name: "Sensor 4"
                         }
-                    }
+                    }*/
                 }
             }
 

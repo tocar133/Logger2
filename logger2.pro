@@ -6,6 +6,7 @@ QT += quick qml
 
 SOURCES += \
         main.cpp \
+        sensor.cpp \
         sensorliste.cpp
 
 RESOURCES += qml/qml.qrc
@@ -25,4 +26,5 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 QT += core widgets
 
 HEADERS += \
+    sensor.h \
     sensorliste.h

@@ -13,7 +13,7 @@ Rectangle {
         return sensorCheckBox.checkState
     }
 
-    function checkBoxChanged() { console.log(model.name + " " + sensorCheckBox.checkState) }
+    function checkBoxChanged() { console.log(modelData.name + " " + sensorCheckBox.checkState) }
 
     Rectangle {
         width: sensor.width - 20
@@ -52,7 +52,7 @@ Rectangle {
                     width: 120
                     anchors.verticalCenter: sensorCheckBox.verticalCenter
                     TextInput {
-                        text: model.name
+                        text: modelData.name
                         font.pointSize: 12
                         anchors.fill: parent
                     }
